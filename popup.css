@@ -1,0 +1,35 @@
+body{
+    width: 200px;
+    height:200px;
+    background-color: lightblue;
+
+}
+
+h1{
+    font-size: 2em;
+    font-family: 'Rubik', sans-serif;
+    color: #333;
+    text-shadow: 2px 2px 4px white;
+}
+
+#calculate-btn{
+    background-color: blanchedalmond;
+    font-family: 'Rubik', sans-serif;
+    height: 40px;
+    width: 50%;
+    margin-left: 40px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    color: #333;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#calculate-btn:hover {
+    background-color: #ffeac9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
